@@ -1,5 +1,8 @@
 # Getting Started with Create React App
 
+This Project a contact application with CRUD operations with search and navbar functionlaties.
+Contact Data we storing in local storage.and for UI I use react-bootstarp and simple css.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
