@@ -1,0 +1,35 @@
+.navbar-nav{
+    display: flex;
+    justify-content: space-evenly;
+    flex-grow: 2;
+}
+
+.nav-link{
+    color: white;
+}
+.nav-link:link,.nav-link:visited{
+    color: white;
+}
+.nav-link:hover,.nav-link:active{
+    color: white;
+}
+
+.logo{
+   height: 30px;
+   width: 30px;
+   margin-left: 100px;
+   animation-name: logo;
+   animation:logo 4s linear infinite;
+}
+
+@keyframes logo {
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+@media screen and (max-width:768px) {
+    .logo{
+        margin-left: 0;
+    }
+}

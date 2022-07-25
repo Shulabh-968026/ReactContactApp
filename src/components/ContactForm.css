@@ -1,0 +1,69 @@
+h1::after {
+    content: "Contact Form";
+    text-decoration: underline;
+    font-weight: bold;
+    height: 10px;
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h3::after {
+    content: "Contact Table";
+    text-decoration: underline;
+    font-weight: bold;
+    height: 10px;
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.form-contact{
+    margin: auto;
+    width: 800px;
+    padding: 10px;
+}
+
+.form-group{
+    width: 100%;
+    margin-top: 10px;
+}
+label{
+    font-size: 23px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 500;
+    display: block;
+    margin-bottom: 3px;
+}
+
+.form-controls{
+    width: 100%;
+    outline: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: 2px solid black;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 3px;
+}
+.form-controls:focus{
+    outline-color: rgb(16, 227, 227);
+    outline-offset: 1px;
+    outline-style: solid;
+    border: none;
+}
+
+.btn-submit {
+    width: 100%;
+    margin-top: 20px;
+    padding: 5px 5px;
+    border-radius: 5px;
+    background: linear-gradient(to right,rgb(0, 255, 30),rgb(70, 0, 128));
+    color: white;
+    font-size: 25px;
+}
+
+@media screen and (max-width:768px) {
+
+    .form-contact{
+        width: 90%;
+    }
+}
